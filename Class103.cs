@@ -21,6 +21,7 @@ namespace ConsoleApp1
 
 
             Console.ReadKey();
+            v = null; //Destroy class v
         }
     }
 }

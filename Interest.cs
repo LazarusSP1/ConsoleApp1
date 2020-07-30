@@ -9,8 +9,13 @@ namespace ConsoleApp1
     class Interest
     {
         public double amount;
-        public double rate;
+        private double rate;//ไม่อยากให้คนอื่นใช้ rate โดยตรง
         public double time;
+
+        public void setRate(double r)
+        {
+            rate = r / 100;
+        }
 
         public void setData(double a, double r, double t)
         {
@@ -26,6 +31,10 @@ namespace ConsoleApp1
         public double getInterest()
         {
             return amount * rate * time;
+        }
+        public double getRate()
+        {
+            return rate*100;
         }
         public double getTax()
         {
