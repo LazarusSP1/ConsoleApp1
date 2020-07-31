@@ -13,7 +13,7 @@ namespace ConsoleApp1
             Interest v = new Interest();
 
             v.setData(20000, 0.3, 3);
-            Console.WriteLine("amount: " + v.amount.ToString() + "\nrate: " + v.rate.ToString() + "\ntime: " + v.time.ToString());
+            //Console.WriteLine("amount: " + v.amount.ToString() + "\nrate: " + v.rate.ToString() + "\ntime: " + v.time.ToString());
             Console.WriteLine(v.getInterest());
             Console.WriteLine(v.getTax());
             Console.WriteLine(v.getNet());

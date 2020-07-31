@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.Class203</StartupObject>
+    <StartupObject>ConsoleApp1.Class306</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,12 @@
     <Compile Include="Class202.cs" />
     <Compile Include="Class203.cs" />
     <Compile Include="Class204.cs" />
+    <Compile Include="Class301.cs" />
+    <Compile Include="Class302.cs" />
+    <Compile Include="Class303.cs" />
+    <Compile Include="Class304.cs" />
+    <Compile Include="Class305.cs" />
+    <Compile Include="Class306.cs" />
     <Compile Include="Email2.cs" />
     <Compile Include="Interest.cs" />
     <Compile Include="Program.cs" />
